@@ -893,7 +893,7 @@ namespace SoulsIds
                 this.ID = ID;
             }
             public EventValueType Type { get; set; }
-            private object ID { get; set; }
+            public object ID { get; set; }
 
             public bool IsArg() => ID is string s && s.StartsWith("X");
 
