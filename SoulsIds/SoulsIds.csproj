@@ -11,11 +11,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\SoulsFormats\SoulsFormats\SoulsFormats.csproj" />
+    <Folder Include="Properties\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Properties\" />
+    <ProjectReference Include="..\..\SoulsFormatsNEXT\SoulsFormats\SoulsFormats.csproj" />
   </ItemGroup>
 
 </Project>
